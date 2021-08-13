@@ -119,8 +119,11 @@ with expand_select_explo:
 
     data2 = data.iloc[:, :-2]
     data2 = data2.iloc[:, 1:]
-    report = pp.ProfileReport(data2, title="Exploratory analysis").to_html()
-    components.html(report, height= 4000, width=600)
+    
+    prof prof = ProfileReport(data2, explorative=True, minimal=True)
+    output = prof.to_file('output.html', silent=False)
+#     report = pp.ProfileReport(data2, title="Exploratory analysis").to_html()
+#     components.html(report, height= 4000, width=600)
     #st.write(report.html, unsafe_allow_html=True)  usefull ? 
 
 
