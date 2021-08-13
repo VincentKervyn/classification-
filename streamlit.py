@@ -125,7 +125,7 @@ with expand_select_explo:
     
     report = pp.ProfileReport(data2, title="Exploratory analysis").to_html()
     components.html(report, height= 4000, width=600)
-    #st.write(report.html, unsafe_allow_html=True)  usefull ? 
+    st.write(report.html, unsafe_allow_html=True)  
 
 
 #### Exploration resume####
