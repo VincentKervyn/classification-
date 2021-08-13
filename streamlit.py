@@ -120,12 +120,12 @@ with expand_select_explo:
     data2 = data.iloc[:, :-2]
     data2 = data2.iloc[:, 1:]
     
-    prof = pp.ProfileReport(data2, explorative=True, minimal=True)
-    output = prof.to_file(output_file="output_min.html", silent=False)
+#     prof = pp.ProfileReport(data2, explorative=True, minimal=True)
+#     output = prof.to_file(output_file="output_min.html", silent=False)
     
-    report = pp.ProfileReport(data2, title="Exploratory analysis").to_html()
-    components.html(report, height= 4000, width=600)
-    st.write(report.html, unsafe_allow_html=True)  
+#     report = pp.ProfileReport(data2, title="Exploratory analysis").to_html()
+#     components.html(report, height= 4000, width=600)
+#     st.write(report.html, unsafe_allow_html=True)  
 
 
 #### Exploration resume####
