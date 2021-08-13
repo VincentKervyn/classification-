@@ -121,7 +121,7 @@ with expand_select_explo:
     data2 = data2.iloc[:, 1:]
     report = pp.ProfileReport(data2, title="Exploratory analysis").to_html()
     components.html(report, height= 4000, width=600)
-    st.write(report.html, unsafe_allow_html=True)
+    #st.write(report.html, unsafe_allow_html=True)  usefull ? 
 
 
 #### Exploration resume####
@@ -129,7 +129,8 @@ expand_select_explo_resume = st.expander(" Exploration Resume", expanded=value_e
 with expand_select_explo_resume:
     """ You will find here a resume of the data exploration
      
-     LoremIpsum"""
+     LoremIpsum""" 
+#     ==>TODO: fill lorem Ipsum
 
     c_data = data2
     ### Plot
