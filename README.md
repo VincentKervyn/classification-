@@ -3,7 +3,7 @@
 <!-- PROJECT TITLE -->
 <br />
 <p align="center">
-  <h3 align="center">ML Classiication App </h3>
+  <h3 align="center">ML Classification App </h3>
 
   <p align="center">
     This is a Streamlit app displaying a 'dashboard' showing the analysis process to predict churn degree based on a dataset
