@@ -23,7 +23,7 @@ from sklearn.decomposition import PCA
 from imblearn.over_sampling import SMOTE
 
 import pandas_profiling as pp
-
+from streamlit_pandas_profiling import st_profile_report
 import streamlit as st
 import streamlit.components.v1 as components
 import time
@@ -119,6 +119,9 @@ with expand_select_explo:
 
     data2 = data.iloc[:, :-2]
     data2 = data2.iloc[:, 1:]
+    
+    pr = data2.profile.report()
+    st_profile_report(pr)
     
 #     prof = pp.ProfileReport(data2, explorative=True, minimal=True)
 #     output = prof.to_file(output_file="output_min.html", silent=False)
