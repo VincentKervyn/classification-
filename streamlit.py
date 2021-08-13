@@ -500,6 +500,6 @@ with expand_select_result:
     unsampled_data_prediction_RF = rf_pipe.predict_proba(original_df_with_pcs[X_features])
     skplt.metrics.plot_precision_recall(original_df_with_pcs['Attrition_Flag'], unsampled_data_prediction_RF)
     plt.legend(prop={'size': 20})
-    st.image('assets/curve.jpg')
+    st.image('assets/curve.JPG')
 
 
