@@ -120,8 +120,8 @@ with expand_select_explo:
     data2 = data.iloc[:, :-2]
     data2 = data2.iloc[:, 1:]
     
-    pr = data2.profile_report()
-    st_profile_report(pr)
+    #pr = data2.profile_report()
+    #st_profile_report(pr)
     
 #     prof = pp.ProfileReport(data2, explorative=True, minimal=True)
 #     output = prof.to_file(output_file="output_min.html", silent=False)
