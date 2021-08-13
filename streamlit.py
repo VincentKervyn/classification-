@@ -29,7 +29,7 @@ import streamlit.components.v1 as components
 import time
 
 #Loading the data
-data = pd.read_csv('./data/BankChurners.csv')
+data = pd.read_csv('BankChurners.csv')
 
 ####SIDE BAR####
 # I want a side bar to select the step of the analysis
