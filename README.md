@@ -46,7 +46,7 @@ During the course of my training with becode I created this app project
 
 1. Clone the repo
    ```sh
-   git clone 
+   git clone https://github.com/VincentKervyn/classification-app.git
    ```
 
 2. Install dependencies
