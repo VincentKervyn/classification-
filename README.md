@@ -62,7 +62,7 @@ streamlit run streamlit.py
    
    ```
 
-Or go to  for the online version  
+Or go to https://share.streamlit.io/vincentkervyn/classification-app/main/streamlit.py for the online version  
 
 
 <!-- CONTRIBUTING -->
