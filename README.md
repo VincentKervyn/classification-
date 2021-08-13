@@ -1,5 +1,3 @@
-# classification-
-deploiment ML model on streamlit
 
 
 <!-- PROJECT TITLE -->
